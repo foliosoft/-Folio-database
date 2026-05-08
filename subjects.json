@@ -1,0 +1,140 @@
+{
+  "schema_version": 3,
+  "last_updated": "2026-05-08",
+  "updated_by": "Folio",
+  "release_notes": "Initial full release with AQA Music GCSE",
+
+  "subjects": [
+    {
+      "id": "aqa_music_gcse",
+      "display_name": "Music",
+      "exam_board": "AQA",
+      "level": "GCSE",
+      "qualification_code": "8271",
+
+      "class_documents": [
+        {
+          "id": "cds",
+          "label": "Centre Declaration Sheet (CDS)",
+          "accepted_formats": ["pdf", "docx"],
+          "export_filename_desc": "CDS"
+        },
+        {
+          "id": "nea_declaration",
+          "label": "NEA Centre Declaration Form",
+          "accepted_formats": ["pdf", "docx"],
+          "export_filename_desc": "NEA Declaration"
+        }
+      ],
+
+      "components": [
+        {
+          "id": "performing",
+          "label": "Component 2 \u2013 Performing",
+          "component_code": "8271-P",
+          "export_subfolder": "Component_2_Performing",
+          "slots": [
+            {
+              "id": "solo_audio",
+              "label": "Solo audio",
+              "accepted_formats": ["mp3", "mp4", "wav", "aiff", "m4a"],
+              "export_description": "Solo Audio",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "solo_score",
+              "label": "Solo score(s)",
+              "accepted_formats": ["pdf", "docx", "png", "jpg", "jpeg"],
+              "export_description": "Solo Score",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "ensemble_audio",
+              "label": "Ensemble audio",
+              "accepted_formats": ["mp3", "mp4", "wav", "aiff", "m4a"],
+              "export_description": "Ensemble Audio",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "ensemble_score",
+              "label": "Ensemble score(s)",
+              "accepted_formats": ["pdf", "docx", "png", "jpg", "jpeg"],
+              "export_description": "Ensemble Score",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "perf_crf",
+              "label": "Performance CRF",
+              "accepted_formats": ["pdf", "docx"],
+              "export_description": "Performance CRF",
+              "required": true,
+              "export_sampled_only": true
+            }
+          ]
+        },
+        {
+          "id": "composing",
+          "label": "Component 3 \u2013 Composing",
+          "component_code": "8271-C",
+          "export_subfolder": "Component_3_Composing",
+          "slots": [
+            {
+              "id": "comp1_audio",
+              "label": "Composition 1 \u2013 audio",
+              "accepted_formats": ["mp3", "mp4", "wav", "aiff", "m4a"],
+              "export_description": "Composition 1 Audio",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "comp1_score",
+              "label": "Composition 1 \u2013 score/guide",
+              "accepted_formats": ["pdf", "docx", "png", "jpg", "jpeg", "mp3", "wav"],
+              "export_description": "Composition 1 Score",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "comp2_audio",
+              "label": "Composition 2 \u2013 audio",
+              "accepted_formats": ["mp3", "mp4", "wav", "aiff", "m4a"],
+              "export_description": "Composition 2 Audio",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "comp2_score",
+              "label": "Composition 2 \u2013 score/guide",
+              "accepted_formats": ["pdf", "docx", "png", "jpg", "jpeg", "mp3", "wav"],
+              "export_description": "Composition 2 Score",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "comp_crf",
+              "label": "Composition CRF",
+              "accepted_formats": ["pdf", "docx"],
+              "export_description": "Composition CRF",
+              "required": true,
+              "export_sampled_only": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "aqa_drama_gcse",
+      "display_name": "Drama",
+      "exam_board": "AQA",
+      "level": "GCSE",
+      "qualification_code": "8261",
+      "class_documents": [],
+      "components": []
+    }
+  ]
+}
