@@ -1,8 +1,8 @@
 {
-  "schema_version": 3,
-  "last_updated": "2026-05-08",
+  "schema_version": 4,
+  "last_updated": "2026-05-09",
   "updated_by": "Folio",
-  "release_notes": "Initial full release with AQA Music GCSE",
+  "release_notes": "Added full AQA Drama GCSE component data",
 
   "subjects": [
     {
@@ -133,8 +133,102 @@
       "exam_board": "AQA",
       "level": "GCSE",
       "qualification_code": "8261",
-      "class_documents": [],
-      "components": []
+
+      "class_documents": [
+        {
+          "id": "cds",
+          "label": "Centre Declaration Sheet (CDS)",
+          "accepted_formats": ["pdf", "docx"],
+          "export_filename_desc": "CDS"
+        },
+        {
+          "id": "nea_declaration",
+          "label": "NEA Centre Declaration Form",
+          "accepted_formats": ["pdf", "docx"],
+          "export_filename_desc": "NEA Declaration"
+        },
+        {
+          "id": "perf_duration",
+          "label": "Performance Duration Declaration Form",
+          "accepted_formats": ["pdf", "docx"],
+          "export_filename_desc": "Performance Duration Declaration"
+        }
+      ],
+
+      "components": [
+        {
+          "id": "devising",
+          "label": "Component 2 \u2013 Devising Drama",
+          "component_code": "8261-C",
+          "export_subfolder": "Component_2_Devising",
+          "slots": [
+            {
+              "id": "devising_performance",
+              "label": "Devised performance (audio/visual recording)",
+              "accepted_formats": ["mp4", "mov", "avi", "mkv", "mp3", "wav"],
+              "export_description": "Devising Performance",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "devising_log",
+              "label": "Devising log",
+              "accepted_formats": ["pdf", "docx"],
+              "export_description": "Devising Log",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "devising_crf",
+              "label": "Devising CRF",
+              "accepted_formats": ["pdf", "docx"],
+              "export_description": "Devising CRF",
+              "required": true,
+              "export_sampled_only": true
+            }
+          ]
+        },
+        {
+          "id": "texts_in_practice",
+          "label": "Component 3 \u2013 Texts in Practice",
+          "component_code": "8261-X",
+          "export_subfolder": "Component_3_Texts_in_Practice",
+          "slots": [
+            {
+              "id": "extract1_recording",
+              "label": "Extract 1 \u2013 performance/design recording",
+              "accepted_formats": ["mp4", "mov", "avi", "mkv"],
+              "export_description": "Extract 1 Recording",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "extract2_recording",
+              "label": "Extract 2 \u2013 performance/design recording",
+              "accepted_formats": ["mp4", "mov", "avi", "mkv"],
+              "export_description": "Extract 2 Recording",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "dramatic_intentions",
+              "label": "Statement of Dramatic Intentions (CRF)",
+              "accepted_formats": ["pdf", "docx"],
+              "export_description": "Dramatic Intentions",
+              "required": true,
+              "export_sampled_only": false
+            },
+            {
+              "id": "texts_crf",
+              "label": "Texts in Practice CRF",
+              "accepted_formats": ["pdf", "docx"],
+              "export_description": "Texts CRF",
+              "required": true,
+              "export_sampled_only": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }
