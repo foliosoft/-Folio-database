@@ -1,9 +1,8 @@
 {
-  "schema_version": 4,
-  "last_updated": "2026-05-09",
+  "schema_version": 5,
+  "last_updated": "2026-05-10",
   "updated_by": "Folio",
-  "release_notes": "Added full AQA Drama GCSE component data",
-
+  "release_notes": "Added export_filename_desc to class documents for export view",
   "subjects": [
     {
       "id": "aqa_music_gcse",
@@ -11,22 +10,26 @@
       "exam_board": "AQA",
       "level": "GCSE",
       "qualification_code": "8271",
-
       "class_documents": [
         {
           "id": "cds",
           "label": "Centre Declaration Sheet (CDS)",
-          "accepted_formats": ["pdf", "docx"],
+          "accepted_formats": [
+            "pdf",
+            "docx"
+          ],
           "export_filename_desc": "CDS"
         },
         {
           "id": "nea_declaration",
           "label": "NEA Centre Declaration Form",
-          "accepted_formats": ["pdf", "docx"],
+          "accepted_formats": [
+            "pdf",
+            "docx"
+          ],
           "export_filename_desc": "NEA Declaration"
         }
       ],
-
       "components": [
         {
           "id": "performing",
@@ -37,7 +40,13 @@
             {
               "id": "solo_audio",
               "label": "Solo audio",
-              "accepted_formats": ["mp3", "mp4", "wav", "aiff", "m4a"],
+              "accepted_formats": [
+                "mp3",
+                "mp4",
+                "wav",
+                "aiff",
+                "m4a"
+              ],
               "export_description": "Solo Audio",
               "required": true,
               "export_sampled_only": false
@@ -45,7 +54,13 @@
             {
               "id": "solo_score",
               "label": "Solo score(s)",
-              "accepted_formats": ["pdf", "docx", "png", "jpg", "jpeg"],
+              "accepted_formats": [
+                "pdf",
+                "docx",
+                "png",
+                "jpg",
+                "jpeg"
+              ],
               "export_description": "Solo Score",
               "required": true,
               "export_sampled_only": false
@@ -53,7 +68,13 @@
             {
               "id": "ensemble_audio",
               "label": "Ensemble audio",
-              "accepted_formats": ["mp3", "mp4", "wav", "aiff", "m4a"],
+              "accepted_formats": [
+                "mp3",
+                "mp4",
+                "wav",
+                "aiff",
+                "m4a"
+              ],
               "export_description": "Ensemble Audio",
               "required": true,
               "export_sampled_only": false
@@ -61,7 +82,13 @@
             {
               "id": "ensemble_score",
               "label": "Ensemble score(s)",
-              "accepted_formats": ["pdf", "docx", "png", "jpg", "jpeg"],
+              "accepted_formats": [
+                "pdf",
+                "docx",
+                "png",
+                "jpg",
+                "jpeg"
+              ],
               "export_description": "Ensemble Score",
               "required": true,
               "export_sampled_only": false
@@ -69,7 +96,10 @@
             {
               "id": "perf_crf",
               "label": "Performance CRF",
-              "accepted_formats": ["pdf", "docx"],
+              "accepted_formats": [
+                "pdf",
+                "docx"
+              ],
               "export_description": "Performance CRF",
               "required": true,
               "export_sampled_only": true
@@ -85,7 +115,13 @@
             {
               "id": "comp1_audio",
               "label": "Composition 1 \u2013 audio",
-              "accepted_formats": ["mp3", "mp4", "wav", "aiff", "m4a"],
+              "accepted_formats": [
+                "mp3",
+                "mp4",
+                "wav",
+                "aiff",
+                "m4a"
+              ],
               "export_description": "Composition 1 Audio",
               "required": true,
               "export_sampled_only": false
@@ -93,7 +129,15 @@
             {
               "id": "comp1_score",
               "label": "Composition 1 \u2013 score/guide",
-              "accepted_formats": ["pdf", "docx", "png", "jpg", "jpeg", "mp3", "wav"],
+              "accepted_formats": [
+                "pdf",
+                "docx",
+                "png",
+                "jpg",
+                "jpeg",
+                "mp3",
+                "wav"
+              ],
               "export_description": "Composition 1 Score",
               "required": true,
               "export_sampled_only": false
@@ -101,7 +145,13 @@
             {
               "id": "comp2_audio",
               "label": "Composition 2 \u2013 audio",
-              "accepted_formats": ["mp3", "mp4", "wav", "aiff", "m4a"],
+              "accepted_formats": [
+                "mp3",
+                "mp4",
+                "wav",
+                "aiff",
+                "m4a"
+              ],
               "export_description": "Composition 2 Audio",
               "required": true,
               "export_sampled_only": false
@@ -109,7 +159,15 @@
             {
               "id": "comp2_score",
               "label": "Composition 2 \u2013 score/guide",
-              "accepted_formats": ["pdf", "docx", "png", "jpg", "jpeg", "mp3", "wav"],
+              "accepted_formats": [
+                "pdf",
+                "docx",
+                "png",
+                "jpg",
+                "jpeg",
+                "mp3",
+                "wav"
+              ],
               "export_description": "Composition 2 Score",
               "required": true,
               "export_sampled_only": false
@@ -117,7 +175,10 @@
             {
               "id": "comp_crf",
               "label": "Composition CRF",
-              "accepted_formats": ["pdf", "docx"],
+              "accepted_formats": [
+                "pdf",
+                "docx"
+              ],
               "export_description": "Composition CRF",
               "required": true,
               "export_sampled_only": true
@@ -126,35 +187,41 @@
         }
       ]
     },
-
     {
       "id": "aqa_drama_gcse",
       "display_name": "Drama",
       "exam_board": "AQA",
       "level": "GCSE",
       "qualification_code": "8261",
-
       "class_documents": [
         {
           "id": "cds",
           "label": "Centre Declaration Sheet (CDS)",
-          "accepted_formats": ["pdf", "docx"],
+          "accepted_formats": [
+            "pdf",
+            "docx"
+          ],
           "export_filename_desc": "CDS"
         },
         {
           "id": "nea_declaration",
           "label": "NEA Centre Declaration Form",
-          "accepted_formats": ["pdf", "docx"],
+          "accepted_formats": [
+            "pdf",
+            "docx"
+          ],
           "export_filename_desc": "NEA Declaration"
         },
         {
           "id": "perf_duration",
           "label": "Performance Duration Declaration Form",
-          "accepted_formats": ["pdf", "docx"],
+          "accepted_formats": [
+            "pdf",
+            "docx"
+          ],
           "export_filename_desc": "Performance Duration Declaration"
         }
       ],
-
       "components": [
         {
           "id": "devising",
@@ -165,7 +232,14 @@
             {
               "id": "devising_performance",
               "label": "Devised performance (audio/visual recording)",
-              "accepted_formats": ["mp4", "mov", "avi", "mkv", "mp3", "wav"],
+              "accepted_formats": [
+                "mp4",
+                "mov",
+                "avi",
+                "mkv",
+                "mp3",
+                "wav"
+              ],
               "export_description": "Devising Performance",
               "required": true,
               "export_sampled_only": false
@@ -173,7 +247,10 @@
             {
               "id": "devising_log",
               "label": "Devising log",
-              "accepted_formats": ["pdf", "docx"],
+              "accepted_formats": [
+                "pdf",
+                "docx"
+              ],
               "export_description": "Devising Log",
               "required": true,
               "export_sampled_only": false
@@ -181,7 +258,10 @@
             {
               "id": "devising_crf",
               "label": "Devising CRF",
-              "accepted_formats": ["pdf", "docx"],
+              "accepted_formats": [
+                "pdf",
+                "docx"
+              ],
               "export_description": "Devising CRF",
               "required": true,
               "export_sampled_only": true
@@ -197,7 +277,12 @@
             {
               "id": "extract1_recording",
               "label": "Extract 1 \u2013 performance/design recording",
-              "accepted_formats": ["mp4", "mov", "avi", "mkv"],
+              "accepted_formats": [
+                "mp4",
+                "mov",
+                "avi",
+                "mkv"
+              ],
               "export_description": "Extract 1 Recording",
               "required": true,
               "export_sampled_only": false
@@ -205,7 +290,12 @@
             {
               "id": "extract2_recording",
               "label": "Extract 2 \u2013 performance/design recording",
-              "accepted_formats": ["mp4", "mov", "avi", "mkv"],
+              "accepted_formats": [
+                "mp4",
+                "mov",
+                "avi",
+                "mkv"
+              ],
               "export_description": "Extract 2 Recording",
               "required": true,
               "export_sampled_only": false
@@ -213,7 +303,10 @@
             {
               "id": "dramatic_intentions",
               "label": "Statement of Dramatic Intentions (CRF)",
-              "accepted_formats": ["pdf", "docx"],
+              "accepted_formats": [
+                "pdf",
+                "docx"
+              ],
               "export_description": "Dramatic Intentions",
               "required": true,
               "export_sampled_only": false
@@ -221,7 +314,10 @@
             {
               "id": "texts_crf",
               "label": "Texts in Practice CRF",
-              "accepted_formats": ["pdf", "docx"],
+              "accepted_formats": [
+                "pdf",
+                "docx"
+              ],
               "export_description": "Texts CRF",
               "required": true,
               "export_sampled_only": true
