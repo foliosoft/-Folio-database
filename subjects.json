@@ -1,8 +1,8 @@
 {
-  "schema_version": 5,
+  "schema_version": 6,
   "last_updated": "2026-05-10",
   "updated_by": "Folio",
-  "release_notes": "Added export_filename_desc to class documents for export view",
+  "release_notes": "Corrected class documents for Music and Drama; added performance duration declaration",
   "subjects": [
     {
       "id": "aqa_music_gcse",
@@ -18,16 +18,27 @@
             "pdf",
             "docx"
           ],
-          "export_filename_desc": "CDS"
+          "export_filename_desc": "Centre Declaration Sheet"
         },
         {
           "id": "nea_declaration",
           "label": "NEA Centre Declaration Form",
+          "notes": "Sign and email to NEAdeclaration@aqa.org.uk by 15 May",
           "accepted_formats": [
             "pdf",
             "docx"
           ],
-          "export_filename_desc": "NEA Declaration"
+          "export_filename_desc": "NEA Centre Declaration"
+        },
+        {
+          "id": "perf_duration",
+          "label": "Performance Duration Declaration Form",
+          "notes": "Email to NEAdeclaration@aqa.org.uk by 15 May",
+          "accepted_formats": [
+            "pdf",
+            "docx"
+          ],
+          "export_filename_desc": "Performance Duration Declaration"
         }
       ],
       "components": [
@@ -201,20 +212,22 @@
             "pdf",
             "docx"
           ],
-          "export_filename_desc": "CDS"
+          "export_filename_desc": "Centre Declaration Sheet"
         },
         {
           "id": "nea_declaration",
           "label": "NEA Centre Declaration Form",
+          "notes": "Sign and email to NEAdeclaration@aqa.org.uk by 15 May",
           "accepted_formats": [
             "pdf",
             "docx"
           ],
-          "export_filename_desc": "NEA Declaration"
+          "export_filename_desc": "NEA Centre Declaration"
         },
         {
           "id": "perf_duration",
           "label": "Performance Duration Declaration Form",
+          "notes": "Email to NEAdeclaration@aqa.org.uk by 15 May",
           "accepted_formats": [
             "pdf",
             "docx"
